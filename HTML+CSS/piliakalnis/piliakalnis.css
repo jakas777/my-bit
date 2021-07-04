@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+  }
+
+
+h1,h3,p {
+    text-align: center;
+
+}
+
+.header {
+    background-color: lightblue;
+    border-bottom: 5px solid black;
+    padding: 20px 100px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.img {
+    padding: 100px 100px;
+
+}
+

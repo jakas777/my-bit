@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="../bootstrap//css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Kontaktai</title>
+</head>
+
+<body>
+ 
+    <!--Header begin-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Kategorijos
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Namams</a></li>
+                        <li><a class="dropdown-item" href="#">Sodui</a></li>
+                        <li><a class="dropdown-item" href="#">Akcijos</a></li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../bootstrap/bootstrap.html">Pagrindinis</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../bootstrap/Apie mus.html">Apie mus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="../bootstrap/kontaktai.html">Kontaktai</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Ieškoti" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Ieškoti</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="mx-auto">
+            <h1>Susisiekite su mumis</h1>
+        </div>
+        <hr>
+        
+<!--Kontaktu forma-->
+            <form>
+                <div class="d-grid gap-3 p-5 m-5 bg-light border ">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">El.paštas</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Privaloma užpildyti</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Slaptažodis</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <div id="emailHelp" class="form-text">Privaloma užpildyti</div>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Sutinku su <a href="../bootstrap/Naudojimosi taisyklės.html" class="text-decoration">Naudojimodi taisyklės</a> </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Pateikti</button>
+                </div>
+            </form>
+    </div>
+
+
+
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

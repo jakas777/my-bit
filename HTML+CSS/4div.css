@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+div {
+    height: 100vh;
+    width: 100vw;
+    font-family:Roboto;
+  }
+
+.pirmas{
+background-color: thistle;
+  }
+.antras { 
+    background-color: turquoise;
+
+}
+.trecias {
+    background-color: yellow;
+}
+.ketvirtas {
+    background-color: slategray;
+}
+h1,p{
+    text-align: center;
+}
+
+
